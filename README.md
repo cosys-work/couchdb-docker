@@ -1,5 +1,9 @@
 # Semi-official Apache CouchDB Docker images [![Build Status](https://travis-ci.org/apache/couchdb-docker.svg?branch=master)](https://travis-ci.org/apache/couchdb-docker)
 
+## TLDR
+
+`docker run -d --name couch-potato -p 5984:5984 -e COUCHDB_USER=admin -e COUCHDB_PASSWORD=passwd %%IMAGE%%:latest`
+
 ## Available tags
 
 There may be more tags available, but these tags should always exist:
