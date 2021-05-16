@@ -2,7 +2,7 @@
 
 ## TLDR
 
-`docker run -d --name couch-potato -p 5984:5984 -e COUCHDB_USER=admin -e COUCHDB_PASSWORD=passwd %%IMAGE%%:latest`
+`docker run -d --name couch-potato -p 5984:5984 -e COUCHDB_USER=admin -e COUCHDB_PASSWORD=passwd couchdb:latest`
 
 ## Available tags
 
